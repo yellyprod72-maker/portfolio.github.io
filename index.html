@@ -3,56 +3,72 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=divice-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio simple</title>
+
     <link rel="stylesheet" href="styles.css">
+
     <!--Créé une icone pour le site-->
     <script src="https://kit.fontawesome.com/74532615bd.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="ghost-solid-full.png" style= color:aquamarine;>
+    <link rel="icon" type="image/png" href="ghost-solid-full.png">
     
 </head>
+
 <body>
-    <i class="fa-solid fa-ghost" style= color:aquamarine;></i>
+    <!-- Mauvaise pratique : style = à mettre en CSS plus tard -->
+    <i class="fa-solid fa-ghost" style="color:aquamarine;"></i>
+
     <header>
-    <nav align="right">
-        <a href="#Accueil"><button>Accueil</button></a>
-        <a href="#Apropos"><button>A propos</button></a>
-        <a href="#Contact"><button>Contact</button></a>
+
+    <nav>
+        <a href="#Accueil">Accueil</a>
+        <a href="#Apropos">A propos</a>
+        <a href="#Contact">Contact</a>
     </nav>
+
     </header>
-    <section id="Accueil">
+
+
         <main>
-      <h1 align="center">Plan d'apprentisage en autodidacte</h1>
-      <p style=color:aquamarine; align="center">Bonjour ! Je m’appelle <strong>KENT Gael</strong> et j’apprends à coder en autodidacte.</p>
-      <p align="center">Nous somme actuellement au Niveau 1 de mon Apprentisage </p>
-    </section>
+
+          <section id="Accueil">
+
+      <h1>Plan d'apprentissage en autodidacte</h1>
+      <p  id="KENT" style="color:rgb(210, 255, 127); text-align: center;">Bonjour ! Je m’appelle <strong>KENT </strong> et j’apprends à coder en autodidacte.</p>
+      <p style="text-align: center;">Nous sommes actuellement au Niveau 1 de mon Apprentissage </p>
+          </section>
+
     <figure>
     <img src="https://cdn.pixabay.com/photo/2024/05/02/09/16/web-development-8734249_640.png" alt="Apprendre le language html" style="display: block; margin: 0 auto">
-    <figcaption align="center">HTML + CSS</figcaption>
+    <figcaption style="text-align: center;">HTML + CSS</figcaption>
     </figure>
-        </main>
-    <section id="Apropos" id="niveau">
-<h2 style="background:aquamarine; color: blue;" align="center">🚀Mes niveaux d'apprentissage:</h2><br>
 
- <div align="center">
+    <section id="Apropos" >
+<h2>🚀Mes niveaux d'apprentissage:</h2><br>
+
+ <div style="text-align: center;">
     <a href="https://yellyprod72-maker.github.io/PROJET2/"><button><strong>Niveau: 2</strong></button></a>
  </div>
-    
+
+ <ol>   
     <li>🔹<strong>Niveau 1 :</strong> HTML et CSS — Création d’un site simple et statique.</li>
     <li>🔸<strong>Niveau 2 :</strong> HTML et CSS avancé — Conception d’un site plus complet et dynamique (sans JavaScript).</li>
     <li>💫<strong>Niveau 3 :</strong> HTML, CSS et JavaScript — Ajout d’interactivité et de fonctionnalités avancées</li>
     <li> <i class="fa-solid fa-ghost" style= color:aquamarine;></i><strong>....?</strong></li>
     <li> <i class="fa-solid fa-ghost" style= color:aquamarine;></i><strong>....?</strong></li>
-</ol><br>
-<p id="HTML" style="color: black;">
+</ol>
+
+<p id="HTML" >
 
 👋 Bonjour et bienvenue sur mon portfolio !
 Ce site représente le <strong>niveau 1</strong> de mon apprentissage en développement web, réalisé uniquement avec HTML et CSS.
 Mon objectif : progresser étape par étape, apprendre les bases solides et partager mon évolution à travers différents projets. </p>
 </section><br>
+
 <section>
-    <h3 align="center">La méthode Pomodoro est idéale pour apprendre le code sans se fatiguer</h3>
-    <p align="center">Qu’est-ce que la méthode Pomodoro ?<br>
+
+    <h3>La méthode Pomodoro est idéale pour apprendre le code sans se fatiguer</h3>
+    <p style="text-align: center;">Qu’est-ce que la méthode Pomodoro ?<br>
 
 C’est une technique de gestion du temps créée par Francesco Cirillo.<br>
 
@@ -70,12 +86,19 @@ C’est une technique de gestion du temps créée par Francesco Cirillo.<br>
     </ul>
 </figcaption>
 </figure>
+
 </section>
-<p style= color:aquamarine; align="center"><strong><mark>visiter le niv 2</mark></strong></p>
+
+<p style= color:aquamarine; text-align: center;"><strong><mark>visiter le niv 2</mark></strong></p>
+
 <section id="Contact">
-<footer style="background-color: antiquewhite;" align="center">
+    </section>
+</main>
+
+<footer style="background-color: antiquewhite; text-align: center;">
     <br><br>
-    <p align="center">HTML + CSS</p> 
+    <p style="text-align: center;">HTML + CSS</p> 
 </footer>
-</section>
+
 </body>
+</html>

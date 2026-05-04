@@ -1,6 +1,103 @@
+body {
+    font-family: Arial; /* Police somple et lisible */
+    background-color: #0f172a ; /* couleur sombre plus moderne que aqua */
+    color: white; /* text blanc pour contraste */
+    margin: 0;
+    padding: 10px;
+}
+ 
+/* ==== Titres === */
+
+h1, h2, h3 {
+    text-align: center; /* centrer tous les titres */
+}
+
+/* TEXTE PRINCIPAL */
+
+#KENT {
+  text-align: center;
+  color: rgb(210, 255, 127);
+
+}
+
+/* === Navigation === */
+
+nav {
+  text-align: right; /* aligne les liens à droite */
+  padding: 20px;  
+}
+
+/* BOUTONS */
+
+
 button {
   padding: 10px 20px;
   font-size: 18px;
-  cursor: pointer;
+  cursor: pointer; /* curseur main */
   border-radius: 6px;
+  border: none;
+  background-color: aquamarine;
 }
+ 
+/* effet hover */
+
+button:hover {
+  background-color: white;
+}
+
+/* === IMAGES RESPONSIVE === */
+
+img {
+  max-width: 100%; /*ne dépasse pas écran */
+  height: auto; /* garde proportions */
+  display: block;
+  margin: 20px auto
+}
+
+/* SECTION */
+
+section {
+  padding: 40px 20px ;
+}
+  
+/* Pourquoi display:inline-block ? / Permet d'ajouter espace + padding */
+
+
+nav a {
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none; /* enlève le soulignement */
+  color: white;
+}
+
+/* Effet au survol */
+
+nav a:hover {
+  color: aquamarine;
+}
+
+/* FOOTER */
+ footer {
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 20px;
+  color: black;
+ }
+
+ /* === RESPONSIVE MOBILE === */
+ /* S'applique si écran < 600px */
+ @media (max-width: 600px) {
+  nav {
+    text-align: center; /* menu centré sur mobile */
+  }
+
+  nav a {
+    display:block; /* liens en colonne */
+    margin: 10px 0;
+  }
+
+  button {
+    width: 100%; /* BOUTON PREND TOUTE LA LARGEUR */
+  }
+
+ }
